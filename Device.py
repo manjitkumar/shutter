@@ -9,8 +9,7 @@ class Device:
         Define os, os_version, browser, browser_version and url on you want to 
         capture a shot.
         '''
-        self.args = args
-        self.args = args        
+        self.args = args       
         print 'Device arguments saved.'
         return
     

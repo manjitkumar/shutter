@@ -60,7 +60,7 @@ class Shutter():
         print worker_response
         worker_id = json.loads(worker_response.text)['id']
         self.worker_id = worker_id
-        print 'Congratulation you worker is ready with id = '+str(worker_id)
+        print 'Congratulation your worker is ready with id = '+str(worker_id)
         return self.worker_id
         
         
